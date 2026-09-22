@@ -38,6 +38,10 @@ def contacto():
         proyecto=NOMBRE_PROYECTO
     )
 
+@app.errorhandler(404)
+def pagina_no_encontrada(error):
+    return render_template("404.html"), 404
+
 if __name__ == "__main__":
     app.run(debug=True)
     

@@ -2,26 +2,71 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>{{proyecto}}</title>
-    <link rel="stylesheet" href="{{url_for('static', filename='css/estilos.css')}}">
+    <title>{{ proyecto }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
 </head>
-
 <body>
 
-    <h1>{{proyecto}}</h1>
+    <h1>{{ proyecto }}</h1>
 
-    <h2>Bienvenido</h2>
+    <h2>🎮 Bienvenido al mundo de los videojuegos</h2>
 
     <p>
-        Esta es mi primera aplicación web
-        desarrollada con Python y Flask.
+        Los videojuegos forman parte del entretenimiento de muchas personas
+        y existen diferentes tipos para distintos gustos.
+    </p>
+
+    <p>
+        En esta página hablaremos un poco sobre los videojuegos,
+        sus géneros y algunas de las cosas que los hacen interesantes.
     </p>
 
     <nav>
-        <a href="/">Inicio</a>
-        <a href="/acerca">Acerca de</a>
+        
+        <a href="/acerca">Videojuegos</a>
         <a href="/contacto">Contacto</a>
     </nav>
+
+    <h2>¿Qué son los videojuegos?</h2>
+
+    <p>
+        Un videojuego es un programa que permite interactuar con una
+        computadora, consola, teléfono u otro dispositivo para realizar
+        diferentes actividades dentro de un mundo virtual.
+    </p>
+
+    <p>
+        Dependiendo del juego, el jugador puede controlar personajes,
+        completar misiones, competir contra otros jugadores, resolver
+        problemas o simplemente explorar diferentes lugares.
+    </p>
+
+    <h2>🎮 Algunos géneros</h2>
+
+    <p>
+        <strong>Acción:</strong> tienen actividades rápidas y diferentes
+        desafíos que requieren reaccionar y tomar decisiones.
+    </p>
+
+    <p>
+        <strong>Aventura:</strong> se enfocan principalmente en explorar,
+        descubrir lugares y avanzar mediante una historia.
+    </p>
+
+    <p>
+        <strong>Carreras:</strong> permiten competir utilizando diferentes
+        vehículos y tratar de llegar primero a la meta.
+    </p>
+
+    <p>
+        <strong>Deportes:</strong> representan actividades deportivas como
+        fútbol, básquetbol, carreras y otros deportes.
+    </p>
+
+    <p>
+        <strong>Estrategia:</strong> requieren pensar antes de realizar
+        acciones y tomar decisiones para conseguir un objetivo.
+    </p>
 
 </body>
 </html>
