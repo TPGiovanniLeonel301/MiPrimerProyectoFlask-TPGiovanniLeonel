@@ -1,2 +1,2 @@
 # MiPrimerProyectoFlask-TPGiovanniLeonel
-En esta actividad aprendí a crear y configurar un proyecto utilizando Python y Flask. También aprendí a organizar los archivos, crear páginas web, utilizar GitHub para guardar y administrar mi proyecto. Durante la práctica fui siguiendo los pasos indicados y aprendí a utilizar nuevas herramientas para desarrollar una página web y solucionar errores
+En esta actividad aprendí a crear y configurar un proyecto utilizando Python y Flask. También aprendí a organizar los archivos, crear páginas web, utilizar GitHub para guardar y administrar mi proyecto. Durante la práctica fui siguiendo los pasos indicados y aprendí a utilizar nuevas herramientas para desarrollar una página web
